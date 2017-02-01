@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon Mini Jeu</title>
+    <script src="https://use.fontawesome.com/93c207c358.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <h1>Mon mini-jeu</h1>
+        <button id='bl'><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></button>
+        <button id='br'><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></button>
+        <button id='bu'><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></button>
+        <button id='bd'><i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i></button>
+        <button id='stop'><i class="fa fa-stop fa-2x" aria-hidden="true"></i></button><br><br>
+    </header>
+
+    <button id='r'>Règles du jeu</button><br>
+    <p>But du jeu : déplacez les carrés afin d'en faire un dessin.<p>
+    <p>Amusez-vous à bouger les carrés noirs et blancs, pour cela cliquez sur le carré
+       concerné, puis jouer avec les boutons flèches. Une fois le mouvement placé, cliquez sur
+       le bouton stop afin de déconnecter le carré des boutons flèches; puis recommencer avec un autre carré. Si vous désirez bouger
+       une seconde fois un carré déjà déplacé recliquez dessus pour activer ses mouvements. Astuce : vous pouvez faire bouger plusieurs carrés en même temps,
+       pour cela cliquez autant de carrés que vous souhaitez, puis bougez les avec les boutons flèches; et enfin pour arrêter les mouvements comme
+       précédemment cliquez sur le bouton stop.
+       Bon jeu !</p>
+
+    <container>
+        <!--carré noir du damier-->
+        <div id='n1'></div>
+        <div id='n2'></div>
+        <div id='n3'></div>
+        <div id='n4'></div>
+        <div id='n5'></div>
+        <div id='n6'></div>
+        <div id='n7'></div>
+        <div id='n8'></div>
+        <div id='n9'></div>
+        <div id='n10'></div>
+
+        <!--carré blanc du damier-->
+        <div id='b1'></div>
+        <div id='b2'></div>
+        <div id='b3'></div>
+        <div id='b4'></div>
+        <div id='b5'></div>
+        <div id='b6'></div>
+        <div id='b7'></div>
+        <div id='b8'></div>
+        <div id='b9'></div>
+        <div id='b10'></div>
+    </container>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src='js/script.js'></script>
+  </body>
+</html>
